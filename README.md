@@ -174,7 +174,7 @@ LDJwdnWJWBDHCE>>>>>>>>>>>>>>>>qjdjes,CJSCNJSKCJJASNCJDKJA V KSCA
 <a href="/quiz/1">Should I go out tonight?</a>
 <a href="/quiz/2">What should I wear?</a>
 ```
-
+lsn
 ### GET `/quiz/:id`
 
 This route will accept a route variable that will be available in `params[:id]` representing the ID of the quiz you wish to begin. Within the route, you should load the quiz by `Quiz.find_by_id` into an instance variable that you can pass to the view, probably `@quiz`.
