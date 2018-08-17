@@ -174,8 +174,8 @@ q1 = Quiz.new(1, "Should I go out tonight?")
 q2 = Quiz.new(2, "What should I wear?")
 ```
 
-The `app/views/index.html.erb` should render links for each quiz with the correct URL and the quizzes' title as the text of the link.
-
+The `app/views/index.html.erb`k should render links for each quiz with the correct URL and the quizzes' title as the text of the link.
+LDJwdnWJWBDHCE>>>>>>>>>>>>>>>>qjdjes,CJSCNJSKCJJASNCJDKJA V KSCA
 ```html
 <a href="/quiz/1">Should I go out tonight?</a>
 <a href="/quiz/2">What should I wear?</a>
@@ -221,6 +221,17 @@ And you would want to see something like the following HTML in the form:
   <label for="Q2">No</label>
 </p>
 ```
+If you had this quiz in data/seed.rb
+q1 = Quiz.new(1, "Should I go out tonight?")
+q2 = Quiz.new(2, "What should I wear?")
+```
+
+The `app/views/index.html.erb`k should render links for each quiz with the correct URL and the quizzes' title as the text of the link.
+LDJwdnWJWBDHCE>>>>>>>>>>>>>>>>qjdjes,CJSCNJSKCJJASNCJDKJA V KSCA
+```html
+<a href="/quiz/1">Should I go out tonight?</a>
+<a href="/quiz/2">What should I wear?</a>
+```
 
 __Hint: Read about iterating over a hash with [`#each`](https://ruby-doc.org/core-2.2.0/Hash.html#method-i-each)__
 
@@ -257,7 +268,7 @@ __In general, the less code you add before running the tests or hitting refresh 
 ## Getting Creative
 
 There's lots of room to customize this application from theming it with styles to implementing decisions trees that mean something to you.
-
+ACBAHDBFCA,JC >>>>>>>>JCDEKJALKWIEFJ
 ### Themes
 
 Use themes from WrapBootstrap.com, Bootstrap.com, and more. The Bootstrap Branch of this project (in this same repository) includes HTML and CSS using Bootstrap.
