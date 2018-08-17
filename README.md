@@ -5,11 +5,7 @@
 ## Overview
 
 One of your final projects can be a "Flowchart" style application that can lead a person down a [decision tree](https://www.pinterest.com/pin/125819383316124395/).
-
-You can build all sorts of useful applications with this model, from helping someone pick a major in college, to deciding whether you should have another cookie (yes. always.), to knowing whether your friend might need help, to all sorts of use-cases. That's what makes this type of project fun, once you get the framework of the code working, you can add your own content and help people make better decisions.
-
-You can see a sample version of this application that will help you decide ["Should You Got Out Tonight"](https://blooming-forest-38924.herokuapp.com/quiz/1)
-
+AJDNkjsndksDKSJNCKJSNCs 
 ## Concept
 
 [Flowcharts](https://en.wikipedia.org/wiki/Flowchart) or "Decision Trees" work by posing a question to a person and based on the answer they give, leading them to another question, until finally, you have a resolution.
@@ -32,10 +28,8 @@ Additionally, the `initialize` method should take a hash as an argument and expe
 yes_result = Result.new(:id => "R1", :text => "Yes, go out.")
 no_result = Result.new(:id => "R2", :text => "No, don't go out.")
 ```
-
-The `id` attribute of the result is an important pattern in this application. It must start with the letter 'R' and be unique, only one result may have an id of `R1`. We'll be using this unique identifier to find the result of the decision tree.
-
-### `app/models/question.rb`
+akjnckAJSNDCKajsnd jcsnkjaSNckjaNCkAJSCn >>>>>>>>>>> kxmlaksMXLJanjxnjsnrigjwrdksmcnjfnvjenfwlae >>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.adjfeqkbfkhqeion.rb`
 
 The 'Question' class will define the questions within the decision tree. For example, a question you might ask to figure out if a person should go out tonight might be, "Are you tired?" This question will have answers in the form of a hash that point to the next question or the result of the decision.
 
